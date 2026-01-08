@@ -17,17 +17,25 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StoreApp
 build_property.RootNamespace = StoreApp
-build_property.ProjectDir = C:\Users\Büşra\Documents\GitHub\StoreApp\
+build_property.ProjectDir = C:\Users\Büşra\Documents\GitHub\StoreAppRepo\StoreApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Büşra\Documents\GitHub\StoreApp
+build_property.MSBuildProjectDirectory = C:\Users\Büşra\Documents\GitHub\StoreAppRepo\StoreApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Büşra/Documents/GitHub/StoreApp/Views/Home/Index.cshtml]
+[C:/Users/Büşra/Documents/GitHub/StoreAppRepo/StoreApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Büşra/Documents/GitHub/StoreAppRepo/StoreApp/Views/Product/Get.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Büşra/Documents/GitHub/StoreAppRepo/StoreApp/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

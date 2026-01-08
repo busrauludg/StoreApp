@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Büşra\\Documents\\GitHub\\StoreApp\\StoreApp.csproj": {}
+    "C:\\Users\\Büşra\\Documents\\GitHub\\StoreAppRepo\\StoreApp\\StoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Büşra\\Documents\\GitHub\\StoreApp\\StoreApp.csproj": {
+    "C:\\Users\\Büşra\\Documents\\GitHub\\StoreAppRepo\\StoreApp\\StoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Büşra\\Documents\\GitHub\\StoreApp\\StoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\Büşra\\Documents\\GitHub\\StoreAppRepo\\StoreApp\\StoreApp.csproj",
         "projectName": "StoreApp",
-        "projectPath": "C:\\Users\\Büşra\\Documents\\GitHub\\StoreApp\\StoreApp.csproj",
+        "projectPath": "C:\\Users\\Büşra\\Documents\\GitHub\\StoreAppRepo\\StoreApp\\StoreApp.csproj",
         "packagesPath": "C:\\Users\\Büşra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Büşra\\Documents\\GitHub\\StoreApp\\obj\\",
+        "outputPath": "C:\\Users\\Büşra\\Documents\\GitHub\\StoreAppRepo\\StoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

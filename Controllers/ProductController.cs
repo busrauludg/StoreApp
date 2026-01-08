@@ -7,20 +7,22 @@ namespace StoreApp.Controllers
 {
     public class ProductController:Controller
     {
-        public IEnumerable<Product>Index()
+        private readonly RepositoryContext _context;
+
+        public ProductController(RepositoryContext context)
         {
-            var context=new RepositoryContext(
-                new DbContextOptionsBuilder<RepositoryContext>()
-                .UseSqlServer("Server=.\\SQLEXPRESS;Database=ProductDb;Trusted_Connection=True;TrustServerCertificate=True")
-                .Options
-            );
-            return context.Products;
+            _context = context;
+        }
 
-
-           /* return new List<Product>()
-            {
-                new Product(){ProductId=1,ProductName="Computer",Predicate=6}
-            };veritabanına erişim şuanda olmadığı için bunu yaptık diay çercevesi ne bak*/
+        public IActionResult Index()
+        {
+            var model= _context.Products.ToList();
+            return View(model);
+        }
+        public IActionResult Get(int id)
+        {
+            Product product = _context.Products.First(p => p.ProductId.Equals(id));
+            return View(product);
         }
     }
 }
